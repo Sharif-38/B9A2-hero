@@ -1,0 +1,84 @@
+/* 
+start Explore Your Travel  */
+@media screen and (min-width:675px)
+{
+    .nav-container{
+        flex-direction: column;
+        width:auto;
+
+    }
+    .nav1{
+        flex-direction: column;
+    }
+    .nav3 ul{
+        flex-direction: column;
+    }
+    
+}
+  /* <!-- start banner --> */
+  /* @media screen and(min-width:675px) { */
+    .explore1{
+        flex-direction: column;
+        width:335px;
+        height:483px;
+        
+        
+    }
+    .explore2{
+        position: relative;
+        top:45px;
+    }
+    .explore3{
+        font-size:30px;
+       margin-top:100px;
+    }
+    .explore4{
+        margin-top:10px;
+    }
+    .explore5{
+        flex-direction: column;
+        width:287px;
+        height: 260px;
+    }
+    .go{
+        height:40px;
+    }
+  /* } */
+
+  /* main part start */
+  
+ 
+     .popular{
+        flex-direction: column;
+        width:335px;
+        margin: 20px;
+       
+
+     }
+     .your{
+      margin-top:900px;
+     }
+     .popular1{
+        font-size:20px;
+     }
+     .more{
+        width: 170px;
+        margin-bottom: 150px;
+     }
+      .png{
+        margin-bottom: 200px;
+      }
+    
+      .img1,.img2,.img3{
+        flex-direction: column;
+      }
+      .choose{
+        margin-top:300px;
+      }
+      @media screen and(max-width:600px) {
+        .mainhottle{
+            grid-template-columns:repeat(1,1fr) ;
+            width:335px;
+        } 
+        
+      }
